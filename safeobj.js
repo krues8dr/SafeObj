@@ -1,7 +1,3 @@
-/*
- * https://gist.github.com/krues8dr/712047ec658c0addd44c5c56d917eb12
- */
-
 function SafeObj(val) {
   this.value = val;
 
