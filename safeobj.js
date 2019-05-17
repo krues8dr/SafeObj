@@ -1,3 +1,7 @@
+/*
+ * https://gist.github.com/krues8dr/712047ec658c0addd44c5c56d917eb12
+ */
+
 function SafeObj(val) {
   this.value = val;
 
@@ -87,6 +91,9 @@ function SafeObj(val) {
       return values.reduce(function(acc, val) {
         if(typeof acc == 'undefined' || acc == null) {
           return val;
+        }
+        else if(typeof val == 'undefined' || val == null) {
+          return acc;
         }
         else {
           return acc+val;
