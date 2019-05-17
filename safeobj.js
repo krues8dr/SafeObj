@@ -37,7 +37,7 @@ function SafeObj(val) {
       if(/^\[(.*?)\]$/.test(child)) {
         let mtch = child.slice(1,-1);
         if(mtch == '*') {
-          child = Object.keys(arr[idx]);
+          child = Object.keys(acc);
         }
         else {
           child = mtch.split(/, ?/)
