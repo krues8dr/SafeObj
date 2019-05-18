@@ -4,6 +4,8 @@
 
 Works client-side on most major browsers without any polyfills. Great for use with your favorite javascript chart library!
 
+This work is public domain, free for use and modification without restriction.
+
 ```
 let SafeObj = require('./safeobj.js');
 
