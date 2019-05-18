@@ -10,21 +10,21 @@ This work is public domain, free for use and modification without restriction.
 let SafeObj = require('./safeobj.js');
 
 var myData = new SafeObj({
-	a: {
-		b: {
-			c0: 17,
-			c1: [
-				{ total: 1 },
-				{ total: 5 },
-				{ total: 7 }
-			],
-			c2: {
-				d1: {	total: 1 },
-				d2: { total: 3 },
-				d3: {	total: 6 }
-			}
-		}
-	}
+  a: {
+    b: {
+      c0: 17,
+      c1: [
+        { total: 1 },
+        { total: 5 },
+        { total: 7 }
+      ],
+      c2: {
+        d1: { total: 1 },
+        d2: { total: 3 },
+        d3: { total: 6 }
+      }
+    }
+  }
 })
 
 myData.get('a.b.c0'); // 17
