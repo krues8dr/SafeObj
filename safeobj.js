@@ -101,3 +101,11 @@ function SafeObj(val) {
     }
   }
 }
+
+// Export depending on our environment.
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+  module.exports = SafeObj;
+}
+else {
+  window.SafeObj = SafeObj;
+}
