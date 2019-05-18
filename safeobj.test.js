@@ -117,7 +117,6 @@ function isEquivalent(a, b) {
       }
     }
     else if (a[propName] !== b[propName]) {
-      console.log(propName, false);
       return false;
     }
   }
