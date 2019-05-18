@@ -1,6 +1,6 @@
 # SafeObj
 
- JavaScript requires you to test every value in a nested object, which can add a lot of bloated tests for "undefined" if you're dealing with deeply nested objects. This is a fancy little map/reducer for complex Javascript data objects. Check out the tests file to see all the features. 
+ JavaScript requires you to test every value in a nested object, which can add a lot of bloated tests for "undefined" if you're dealing with deeply nested objects. This is a fancy little map/reducer for complex JavaScript data objects. Check out the tests file to see all the features. 
 
 Works client-side on most major browsers without any polyfills. Great for use with your favorite javascript chart library!
 
